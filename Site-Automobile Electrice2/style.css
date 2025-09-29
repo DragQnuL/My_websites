@@ -1,0 +1,547 @@
+
+@font-face {
+    font-family: Font_Bold;
+    src: url(font/Riffic.ttf);
+}
+
+@font-face {
+    font-family: FontG;
+    src: url(font/Marlboro.ttf);
+}
+
+@keyframes appear {
+    from {
+      opacity: 0;
+      clip-path: inset(100% 100% 0 0);
+    }
+    to {
+      opacity: 1;
+      clip-path: inset(0 0 0 0);
+    }
+  }
+
+  .main{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+*{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 0;
+    background-color: #fffaee;
+    left: 5%;
+    right: 5%;
+
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+  }
+
+.AE{
+    font-family: Font_Bold;
+    
+}   
+
+.AE a {
+    text-decoration: none;
+    color: #2E8B57;
+}
+
+.AE-BUT{
+    float: right;
+    margin-top: -4%;
+}
+
+nav{
+    width: 500px;
+    height: 20px;
+    margin: 0 auto;
+}
+nav ul{
+    margin-top: 0;
+    margin: 0px;
+    list-style: none;
+
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #272727;
+    line-height: 60px;
+    padding: 37px 20px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+nav ul li a:hover {
+  background-color: #CECECE;
+}
+
+nav ul li:hover ul li{
+  display: block;
+}
+
+.Title{
+
+    margin-top: 10%;
+    text-align: left;
+    font-family: FontG;
+    font-size: 3cm;
+}
+
+.Subtitle{
+
+    text-align: left;
+    font-family: FontG;
+    font-size: 1cm;
+}
+
+.Subtitle2{
+
+    text-align: left;
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 40%;
+}
+
+.Dece{
+    margin-top: 22%;
+    font-family: FontG;
+    font-size: 0.8cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.img-putere{
+    float: right;
+    margin-top: -120%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.MasiniE{
+    font-size: 0.5cm;
+    font-family: FontG;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.MasiniE2{
+    font-size: 0.5cm;
+    font-family: FontG;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.MasiniE3{
+    font-size: 0.5cm;
+    font-family: FontG;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.MasiniE4{
+    font-size: 0.5cm;
+    font-family: FontG;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.MasiniE5{
+    font-size: 0.5cm;
+    font-family: FontG;
+    margin-left: 40%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.MasiniE6{
+    font-size: 0.5cm;
+    font-family: FontG;
+    margin-left: 40%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.MasiniE7{
+    font-size: 0.5cm;
+    font-family: FontG;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+
+}
+
+.img-putere2{
+    float: left;
+    margin-top: -46%;
+
+}
+
+.footer{
+    height: 40px;
+    font-family: FontG;
+    font-size: 0.5cm;
+    text-align: center;
+    margin-top: 2%;
+    background-color: #f5f0e4;
+}
+
+.teslamodel{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 25%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.teslamodel1{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.nissan{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 5%;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.nissan2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.poze_tesla{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: 75%;
+    margin-top: -4.5%;
+    box-shadow: 0px 0px 0px 0px #603;
+    transform: translate(-50%, -50%);
+    background-image: url("Image/Tesla_Model_3/3b777f29-d209-554f-8b7c-be1a52850000.jpeg");
+    background-size: 100% 100%;
+    animation:slider 12s infinite linear;
+}
+
+@keyframes slider{
+    0%{   background-image: url("Image/Tesla_Model_3/download.jpeg");}
+    35%{  background-image: url("Image/Tesla_Model_3/download\ \(1\).jpeg");}
+    75%{  background-image: url("Image/Tesla_Model_3/download\ \(2\).jpeg");}
+    95%{  background-image: url("Image/Tesla_Model_3/download\ \(3\).jpeg");}
+
+}
+
+.poze_nissan{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: 20%;
+    margin-top: -5%;
+    box-shadow: 0px 0px 0px 0px #603;
+    transform: translate(-50%, -50%);
+    background-image: url("Image/NissanLeaf/1.jpeg");
+    background-size: 100% 100%;
+    animation:slider1 12s infinite linear;
+}
+
+@keyframes slider1{
+    0%{   background-image: url("Image/NissanLeaf/2.jpeg");}
+    35%{  background-image: url("Image/NissanLeaf/3.jpeg");}
+    75%{  background-image: url("Image/NissanLeaf/4.jpeg");}
+    95%{  background-image: url("Image/NissanLeaf/5.jpeg");}
+}
+
+.audi{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 5%;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.audi2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.poze_audi{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    left: 75%;
+    margin-top: -5%;
+    box-shadow: 0px 0px 0px 0px #603;
+    transform: translate(-50%, -50%);
+    background-image: url("Image/AudiE-tron/1.jpeg");
+    background-size: 100% 100%;
+    animation:slider2 12s infinite linear;
+}
+
+@keyframes slider2{
+    0%{   background-image: url("Image/AudiE-tron/2.jpeg");}
+    35%{  background-image: url("Image/AudiE-tron/3.jpeg");}
+    75%{  background-image: url("Image/AudiE-tron/4.jpeg");}
+    95%{  background-image: url("Image/AudiE-tron/5.jpeg");}
+}
+
+.footer2{
+    height: 40px;
+    font-family: FontG;
+    font-size: 0.5cm;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #f5f0e4;
+}
+
+.Title2{
+    margin-top: 10%;
+    text-align: left;
+    font-family: FontG;
+    font-size: 2cm;
+}
+
+.autonomie{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 20%;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.autonomie2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.autonomie3{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.poza_autonomie{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -30%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.bold{
+    font-family: FontG;
+    font-size: 0.6cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.infrastructurae{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 5%;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.infrastructura2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+.infrastructura3{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+
+.infrastructura4{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+
+.infrastructura5{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+.poza_Infrastructura{
+    float: left;
+    margin-top: -35%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.Bugetul{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 5%;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.Bugetul2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.Bugetul3{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.Bugetul4{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.Bugetul5{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.poza_Bugetul{
+    float: right;
+    margin-top: -25%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.spatiu{
+    font-family: FontG;
+    font-size: 1.5cm;
+    margin-top: 10%;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.spatiu2{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-right: 5%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.spatiu3{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.spatiu4{
+    font-family: FontG;
+    font-size: 0.5cm;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.poza_spatiu{
+    float: left;
+    margin-top: -25%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
